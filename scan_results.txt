@@ -26,10 +26,8 @@ Potential Risks:
 | 53   | domain (DNS) | DNS amplification or poisoning if not secured      |
 
 Recommendations:
+
 Close unused ports (especially 135, 139, 445 if not needed)
-
 Apply latest security patches
-
 Use a firewall to block unnecessary services
-
 Limit exposure to internal networks only
