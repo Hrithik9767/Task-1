@@ -1,0 +1,27 @@
+Output Summary:
+
+Found 3 live hosts
+
+Common open ports:
+
+Port 80 (HTTP)
+
+Port 22 (SSH)
+
+Port 139/445 (SMB)
+
+⚠️ Risks Identified:
+
+| Port | Service | Risk                                            |
+| ---- | ------- | ----------------------------------------------- |
+| 22   | SSH     | Brute-force attacks if default credentials used |
+| 445  | SMB     | Target for ransomware (e.g., WannaCry)          |
+| 23   | Telnet  | Transmits data unencrypted                      |
+
+🛡 Recommendations:
+
+Disable unused services
+
+Use firewall to restrict external access
+
+Use strong passwords and disable default credentials
